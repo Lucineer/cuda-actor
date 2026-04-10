@@ -1,0 +1,8 @@
+[package]
+name = "cuda-actor"
+version = "0.1.0"
+edition = "2021"
+description = "Actor model — mailbox, spawn, supervision trees, message passing, and lifecycle management for agent systems"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
